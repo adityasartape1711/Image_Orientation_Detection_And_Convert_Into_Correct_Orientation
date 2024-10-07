@@ -44,14 +44,12 @@ Once the orientation is detected, the image is then rotated back to its correct 
 ## How to Run the Project
 
 1. Clone the repository.
-2. Install the required dependencies listed in the `requirements.txt` file.
-3. Run the training script to train the CNN model on the dataset.
-4. Use the pre-trained model to predict and correct the orientation of new images.
+2. Run the training script to train the CNN model on the dataset.
+3. Use the pre-trained model to predict and correct the orientation of new images.
 
 ```bash
 git clone https://github.com/yourusername/image-orientation-detection.git
 cd image-orientation-detection
-pip install -r requirements.txt
 python train_model.py
 ```
 
